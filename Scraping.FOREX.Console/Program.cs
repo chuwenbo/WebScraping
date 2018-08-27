@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace Scraping.FOREX.Console
+namespace Scraping.FOREX.Application
 {
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             Console.WriteLine("Hello World!");
         }
     }

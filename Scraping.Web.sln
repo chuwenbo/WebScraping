@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraping.FOREX.Console", "Scraping.FOREX.Console\Scraping.FOREX.Console.csproj", "{DA85DC09-E499-4153-97DC-8CB9B2E6CB65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scraping.FOREX.Application", "Scraping.FOREX.Console\Scraping.FOREX.Application.csproj", "{DA85DC09-E499-4153-97DC-8CB9B2E6CB65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{720F1BF3-91DE-438A-9391-A5EFBD083CA9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scraping.Web.Entities", "Scraping.Web.Entities\Scraping.Web.Entities.csproj", "{FB5606BB-F03B-4F3D-ACDD-BB1AEBEAA5BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{DA85DC09-E499-4153-97DC-8CB9B2E6CB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA85DC09-E499-4153-97DC-8CB9B2E6CB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA85DC09-E499-4153-97DC-8CB9B2E6CB65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5606BB-F03B-4F3D-ACDD-BB1AEBEAA5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5606BB-F03B-4F3D-ACDD-BB1AEBEAA5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5606BB-F03B-4F3D-ACDD-BB1AEBEAA5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5606BB-F03B-4F3D-ACDD-BB1AEBEAA5BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
