@@ -12,6 +12,8 @@ namespace Scraping.Web.Entities.FOREX
         [MaxLength(50)]
         public string Time { get; set; }
         [MaxLength(50)]
+        public string Date { get; set; }
+        [MaxLength(50)]
         public string TimeZone { get; set; }
         [MaxLength(50)]
         public string Country { get; set; }

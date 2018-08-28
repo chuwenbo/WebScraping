@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Scraping.Web.Entities;
 
 namespace Scraping.Web.Entities.Migrations
 {
     [DbContext(typeof(ScrapingWebContext))]
-    partial class ScrapingWebContextModelSnapshot : ModelSnapshot
+    [Migration("20180828052145_addField")]
+    partial class addField
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
