@@ -5,9 +5,9 @@
 Get historical data of Economic Calendar(10 years)
 
 Reference link:
-//www.forex.com/en-us/
-//www.forex.com/cn
-www.forex.com/en-us/market-analysis/economic-calendar/
+[forex en-us page](https://www.forex.com/en-us/)
+[forex cn page](https://www.forex.com/cn)
+[forex ecomoic calendar](https://www.forex.com/en-us/market-analysis/economic-calendar/)
 
 
 Author:Wenbo Chu
