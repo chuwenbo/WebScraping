@@ -7,13 +7,11 @@ namespace Scraping.FOREX.Application
     {
         static void Main(string[] args)
         {
-            EconomicCalendarHandler economicCalendarHandler = new EconomicCalendarHandler();
-            string token = economicCalendarHandler.GetAuthToken();
-            string javascriptHtml = economicCalendarHandler.GetMainCalendar(token, "20180815", "20180816"); 
-
-            //string html = File.ReadAllText("./sample/html-snippet.txt"); 
+            EconomicCalendarHandler economicCalendarHandler = new EconomicCalendarHandler();  
+            economicCalendarHandler.Run();
 
             Console.WriteLine("Hello World!");
+            Console.ReadKey();
         }
     }
 }

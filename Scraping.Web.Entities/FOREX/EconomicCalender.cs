@@ -12,13 +12,24 @@ namespace Scraping.Web.Entities.FOREX
         [MaxLength(50)]
         public string Time { get; set; }
         [MaxLength(50)]
-        public string Date { get; set; }
+        public string DateText { get; set; }
+        [MaxLength(50)]
+        public string Day { get; set; }
+        [MaxLength(50)]
+        public string Month { get; set; }
+        [MaxLength(50)]
+        public string Year { get; set; }
         [MaxLength(50)]
         public string TimeZone { get; set; }
         [MaxLength(50)]
-        public string Country { get; set; }
+        public string CountryCode { get; set; }
+        [MaxLength(50)]
+        public string CountryName { get; set; }
         [MaxLength(200)]
         public string Event { get; set; }
+        /// <summary>
+        /// volatility
+        /// </summary>
         [MaxLength(50)]
         public string Vol { get; set; }
         [MaxLength(50)]

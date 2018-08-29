@@ -20,6 +20,8 @@
                 </tr>
             </thead>
             <tbody>
+			<tr>
+			</tr>
                         <tr class="fxst-dateRow">
                             <td colspan="9">Monday, Aug 27</td>
                         </tr>
